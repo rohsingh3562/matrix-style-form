@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Survay Form</title>
+</head>
+
+<body class="bg">
+    <audio autoplay loop>
+        <source src="backmusic.mp3" type="audio/mp3">
+    </audio>
+    <main class="container">
+        <form action="index.js" method="get" class="mform">
+            <h1>The Matrix</h1> <hr>
+            <input type="text" name="name" id="name1" placeholder="Name here..........."></div>
+            <input type="text" name="age" id="age1" placeholder="Age here.........."></div>
+        
+
+            <h3>Choose the Pill</h3>
+            <label class="pills">
+                <input type="radio" name="pill" id="redpill"><img src="redpill.png" alt="Red Pill"
+                    width="100px"></label>
+
+            <label class="pills">
+                <input type="radio" name="pill" id="bluepill"><img src="blue.png" alt="Blue Pill" width="80px"></label>
+
+            <label for="firstque">
+                <h4>Reason for waking up from Matrix:</h4>
+                <input type="text" name="firstque" id="1stque" placeholder="Mention Experience">
+            </label>
+
+            <h4>Awareness level:</h4>
+            <label for="2ndque1">
+                <input type="radio" name="secque" id="2ndque1" value="normal">Normal level</label>
+
+            <label for="2ndque2">
+                <input type="radio" name="secque" id="2ndque2" value="morpheus">Morpheus level</label>
+
+            <label for="2ndque3">
+                <input type="radio" name="secque" id="2ndque3" value="neo">Neo level</label>
+
+            <h4>Experience with Agents/Machines:</h4>
+            <label for="3rdque1">
+                <input type="radio" name="exp" id="3rdque1" value="friend">Friendly</label>
+
+            <label for="3rdque2"><input type="radio" name="exp" id="3rdque2" value="enemy">Deadly</label>
+
+            <h4>Will risk life to save Humans:</h4>
+            <label for="4thque1">
+                <input type="radio" name="dare" id="4thque1" value="yes">Definately yes.
+            </label>
+
+            <label for="4thque2">
+                <input type="radio" name="dare" id="4thque2" value="yes">No, i will save myself.
+            </label>
+
+        </form>
+
+        <div class="subm">
+            <input type="submit" value="Submit">
+        </div>
+
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bg {
+    background-image: url("giphy.gif");
+    background-position: center;
+    height:100;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mform {
+    /* display: flex; */
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.33);
+    margin: 45% 0% 5% 0%;
+    padding: 5%;
+    overflow: hidden;
+    background-color: rgba(40, 118, 7, 0.37);
+    box-shadow: 3px 3px 20px 5px greenyellow;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color: rgba(21, 240, 21, 0.918);
+    text-shadow: 3px 3px 5px rgba(17, 251, 71, 0.982);
+    transform: scaleX(1);
+    transition: transform 1s;
+}
+h1:hover {
+    transform: scaleX(1.5);
+    transition-timing-function:ease-out;
+}
+
+#name1 {
+    margin-bottom: 5px;
+}
+input[type="text"] {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgba(40, 118, 7, 0.37);
+    transform: scaleX(1);
+    transition: transform 1s;
+    border-color: rgb(0, 139, 35);
+    border-radius: 5px;
+    color: greenyellow;
+}
+
+input[type="text"]::placeholder {
+    color: rgb(32, 249, 32);
+}
+
+input[type="text"]:hover {
+    transform: scaleX(1.1);
+}
+
+h4, h3 {
+    color: rgba(21, 240, 21, 0.918);
+    text-shadow: 3px 3px 5px rgba(17, 251, 71, 0.982);
+    transform: scaleX(1);
+    transition: transform 1s;
+}
+
+h3:hover, h4:hover {
+    transform: scaleX(1,1);
+}
+input[type="radio"] {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background-color: rgba(9, 176, 48, 0.527);
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+    background-color: rgb(165, 250, 37);
+    box-shadow: 2px 2px 20px 10px rgb(165, 250, 37);
+}
+
+label {
+    color: greenyellow;
+    transition: transform 2s;
+}
+label:hover {
+    transform: scaleY(1.2, 1.2);
+}
+
+input[type="submit"] {
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 0% 0% 5% 0%;
+    color: yellowgreen;
+    background-color: darkgreen;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgb(20, 218, 20);
+    transform: scale(1, 1);
+    width:2500px;
+    max-width:500px;
+    transition: transform 2s;
+}
+input[type="submit"]:hover {
+    transform: scale(1.2,1.2);
+    background-color: rgb(17, 186, 17);
+}
+
