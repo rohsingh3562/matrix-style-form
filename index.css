@@ -78,6 +78,7 @@ input[type="radio"] {
     height: 12px;
     background-color: rgba(9, 176, 48, 0.527);
     border-radius: 50%;
+    cursor: pointer;
 }
 
 input[type="radio"]:checked {
@@ -88,6 +89,7 @@ input[type="radio"]:checked {
 label {
     color: greenyellow;
     transition: transform 2s;
+    cursor: pointer;
 }
 label:hover {
     transform: scaleY(1.2, 1.2);
@@ -106,6 +108,7 @@ input[type="submit"] {
     width:2500px;
     max-width:500px;
     transition: transform 2s;
+    cursor: pointer
 }
 input[type="submit"]:hover {
     transform: scale(1.2,1.2);
